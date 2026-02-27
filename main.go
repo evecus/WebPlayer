@@ -268,7 +268,7 @@ func (s *Server) handleHistory(w http.ResponseWriter, r *http.Request) {
 // ────────────────────────────── Main ─────────────────────────────────────
 
 func main() {
-	port := flag.Int("port", 8888, "HTTP server port")
+	port := flag.Int("port", 4001, "HTTP server port")
 	dataFile := flag.String("data", "webplayer-data.json", "Path to data persistence file")
 	flag.Parse()
 
